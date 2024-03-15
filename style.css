@@ -1,0 +1,76 @@
+@font-face {
+    font-family: font;
+    src: url(font/SaintCarell_PERSONAL_USE_ONLY.otf);   
+}
+
+
+body {
+    align-items: center;
+    text-align: center;
+    background-image: url(retro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+   
+}
+
+h1 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(84, 47, 2);
+    font-family: font;
+   
+}
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 5px;
+    margin-left: 33%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+   
+    
+    
+}
+
+.cell {
+    border: 3px dotted rgb(47, 26, 11);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+   
+
+    color: rgb(61, 22, 0);
+    background: rgba(221, 98, 213, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.8px);
+    -webkit-backdrop-filter: blur(11.8px);
+    
+}
+
+
+  
+
+/* 
+@media  all and (max-widht: 820px) { 
+ 
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    margin-left: 34%;
+    text-align: center;
+    
+    
+}
+} */
